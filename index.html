@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT3 WEATHER_APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Global Weather App</h1>
+        
+        <div class="search-container">
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button id="search-btn">Get Weather</button>
+        </div>
+        
+        <div class="weather-display">
+            <div id="weather-info">
+                <h2 id="city-name">Search for a city</h2>
+                <div id="temperature">--°C</div>
+                <div id="weather-description">Weather information will appear here</div>
+                <div id="additional-info">
+                    <div>Humidity: <span id="humidity">--%</span></div>
+                    <div>Wind: <span id="wind">-- km/h</span></div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="error-message" class="hidden"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
